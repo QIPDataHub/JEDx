@@ -11,6 +11,14 @@
           "type": "string",
           "description": "Reference Id for the root object."
         },
+        "senderRefId": {
+          "type": "string",
+          "description": "Reference Id for the sender"
+        },
+        "receiverRefId": {
+          "type": "string",
+          "description": "Reference Id for the receiver."
+        },
         "podURL": {
           "type": "string",
           "description": "URL of the POD (Privacy Obligation Document). "

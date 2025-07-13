@@ -16,6 +16,14 @@
           "type": "string",
           "description": "Reference Id for the root object."
         },
+        "senderRefId": {
+          "type": "string",
+          "description": "Reference Id for the sender"
+        },
+        "receiverRefId": {
+          "type": "string",
+          "description": "Reference Id for the receiver."
+        },
         "organizationRefId": {
           "type": "string",
           "description": "Reference Id to the associated organization for the job."

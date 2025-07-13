@@ -11,6 +11,14 @@
           "type": "string",
           "description": "Reference Id to the root object."
         },
+        "senderRefId": {
+          "type": "string",
+          "description": "Reference Id for the sender"
+        },
+        "receiverRefId": {
+          "type": "string",
+          "description": "Reference Id for the receiver."
+        },
         "workerRefId": {
           "type": "string",
           "description": "Reference Id to the associated worker for the report."
