@@ -11,11 +11,11 @@
           "type": "string",
           "description": "Reference Id to the root object."
         },
-        "senderRefId": {
+        "senderId": {
           "type": "string",
           "description": "Reference Id for the sender"
         },
-        "receiverRefId": {
+        "receiverId": {
           "type": "string",
           "description": "Reference Id for the receiver."
         },
@@ -87,12 +87,6 @@
           "title": "NumberType",
           "type": "number"
         },
-        "month1Flag": {
-          "type": "boolean",
-          "description": "\"A flag to indicate whether the worker worked for pay during any part of the pay period that included the 12th day of the month of the first month of the quarter.\n\n• Report a \"\"1\"\" if the employee worked for pay during the pay period that included the 12th day of the month. Otherwise report a \"\"0\"\".\n\""
-        },
-        "month2Flag": {"type": "boolean"},
-        "month3Flag": {"type": "boolean"},
         "totalHoursPaid": {
           "type": "number",
           "description": "The total number of hours for which a worker received pay. Includes all actual work hours and hours of employer-paid leave that were used."
