@@ -19,6 +19,7 @@
           "type": "string",
           "description": "Reference Id for the receiver."
         },
+        "isMulti-state": {"type": "boolean"},
         "podURL": {
           "type": "string",
           "description": "URL of the POD (Privacy Obligation Document). "
@@ -211,6 +212,10 @@
               }
             }
           }
+        },
+        "tradeName": {
+          "type": "string",
+          "description": "The name a company uses for advertising and sales purposes, which may be different from its legal name."
         },
         "physicalAddresses": {
           "type": "array",
