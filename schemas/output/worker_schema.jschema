@@ -18,6 +18,10 @@
           "type": "string",
           "description": "Reference Id for the receiver."
         },
+        "sendTo": {
+          "type": "string",
+          "description": "In multi-state instances identifies the final destination of the object."
+        },
         "organizationRefId": {
           "type": "string",
           "description": "Reference Id to the associated organization for the worker."
